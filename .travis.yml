@@ -6,4 +6,4 @@ services:
 sudo: required
 before_script: npm i -g eslint mocha
 script:
-  - /lab-13-chris/npm run test
+  - npm run test
