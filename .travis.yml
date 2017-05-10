@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-  - '4'
+  - '7'
 services:
   - mongodb
 sudo: required
 before_script: npm i -g eslint mocha
-script: 
-  - ./script/test-submissions.sh
+script:
+  - npm run test
